@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-size: 24px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 0.25em;
+  color: rosybrown;
+}
+
+main > h1 > span:first-child {
+  margin-right: 0.15em;
+}
+
+main > h1 {
+  font-size: 1em;
+  transition: all 0.1s 0s ease;
+}
+
+main > h1:hover {
+  font-size: 1.25em;
+}
+
+@keyframes hoverText {
+  0% {
+    font-size: 1em;
+  }
+
+  100% {
+    font-size: 1.25em;
+  }
+}
